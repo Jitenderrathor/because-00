@@ -104,28 +104,6 @@
     height: 40px;
     line-height: 40px;
   }
-  .mp-slider .slick-slide {
-    margin: 0;
-    transition: all 0.4s ease-in-out;
-  }
-  .mp-slider .slick-slide,
-  .mp-slider
-    .slick-slide[aria-hidden="true"]:not(.slick-cloned)
-    ~ .slick-cloned[aria-hidden="true"] {
-    transform: scale(1, 1);
-  }
-
-  /* Active center slide (You can change anything here for cenetr slide)*/
-  .mp-slider .slick-center,
-  .mp-slider
-    .slick-slide[aria-hidden="true"]:not([tabindex="-1"])
-    + .slick-cloned[aria-hidden="true"] {
-    transform: scale(1);
-  }
-
-  .mp-slider .slick-current.slick-active {
-    transform: scale(1, 1);
-  }
   .project-hero {
     padding: 80px 0;
     height: auto;
@@ -149,6 +127,10 @@
   }
   .get-in-touch{
     padding: 40px;
+  }
+  .pm-card .pm-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -235,7 +217,12 @@
   .specialize {
     padding: 50px 0;
   }
-
+  .ss-box{
+    padding: 30px 20px;
+  }
+  .ss-box .th-btn{
+   margin-top: 50px;
+  }
   .h1 .h1-light {
     margin-right: 30px;
   }
@@ -268,7 +255,9 @@
     margin-bottom: 20px;
   }
   /* Pricing Page  */
-
+  .pm-service {
+    margin-top: 30px;
+  }
   .pm-box .pmb-1,
   .pm-box .pmb-2 {
     padding: 0 20px;
@@ -340,13 +329,9 @@
   .container-xxl{
     padding: 0px 20px;
   }
-  .th-btn {
-    font-size: calc(var(--th-fs-h4) * 0.9);
-    padding: 7px 15px;
-  }
-  .th-btn::before{
+  /* .th-btn::before{
 height: 200px;
-  }
+  } */
   
   .th-btn .far {
     font-size: calc(var(--th-fs-h4) * 0.9) !important;
@@ -381,6 +366,9 @@ height: 200px;
   .pm-border-box {
     padding: 0px 0px;
     border: none;
+  }
+  .pm-service {
+    margin-top: 0px;
   }
   .pm-card{
     padding: 40px 20px;
@@ -500,6 +488,7 @@ height: 200px;
     display: flex;
     flex-direction: column;
     border: none;
+    padding-top: 15px;
   }
   .pm-tab-box .pmtb-btn {
     padding: 0;
@@ -512,10 +501,14 @@ height: 200px;
     width: 0px;
   }
   .pm-tab-box .pmtb-btn.active {
-    border-bottom: 2px solid var(--th-color-1);
+    border-bottom: 5px solid var(--th-color-1);
+    opacity: 1;
   }
-  .ss-box {
-    height: auto;
+  .ss-box{
+    padding:20px;
+  }
+  .ss-box .th-btn{
+   margin-top: 20px;
   }
   .ss-box .sr-t {
     margin-left: 20px !important;
@@ -523,8 +516,14 @@ height: 200px;
   .ss-box .sr-t .h5 {
     padding: 4px !important;
   }
+  .phtb a {
+    opacity: 1;
+  }
+  .pm-tab-box .pmtb-btn {
+    opacity: 1;
+  }
   .ph-tab-btn{
-    gap: 15px;
+    /* gap: 15px; */
     margin-bottom: 20px;
   }
   .csh-img #youtube {
