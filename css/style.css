@@ -1363,3 +1363,80 @@ background-color: var(--th-color-5);
   transform: rotate(0deg);
 }
 /* ------------- Pricing Main Scetion End ------------- */
+
+
+/* ------------- Next Project Scetion Start ------------- */
+.next-project{
+  padding: 50px 0px;
+}
+.np-box{
+  background-color: var(--th-color-1);
+  border-radius: 50px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.np-box::after{
+  content: '';
+  background-color: var(--th-color-6);
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  position: absolute;
+  transform: translateY(100%);
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all .5s;
+}
+.np-box:hover:after{
+  transform: translateY(0%);
+}
+.np-box .npb-left .h3{
+ font-weight: 400 ;
+ color: var(--th-color-5);
+ position: relative;
+ z-index: 10;
+ margin: 0;
+
+ transition: all 1.5s;
+}
+.np-box .npb-right .h3{
+ font-weight: 500 ;
+ color: var(--th-color-5);
+ position: relative;
+ z-index: 10;
+ margin: 0;
+ transition: all 1.5s;
+}
+.np-box .npb-right .h3 .far{
+transform: rotate(-45deg);
+}
+.np-box .npb-right .v-line{
+  width: 1.5px;
+  border-radius: 10px;
+  height: 100%;
+  min-height: 70px;
+  background-color: var(--th-color-5); 
+  position: relative;
+  z-index: 10;
+  transition: all 1.5s;
+}
+.np-box .npb-right .h5{
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 500;
+color: var(--th-color-5);  
+position: relative;
+z-index: 10;
+margin: 0;
+transition: all 1.5s;
+}
+.np-box:hover .v-line{
+  background-color: var(--th-color-2);
+}
+.np-box:hover .h3,
+.np-box:hover .h5{
+  color: var(--th-color-2);
+}
+/* ------------- Next Project Scetion End ------------- */

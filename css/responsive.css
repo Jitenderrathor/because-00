@@ -532,4 +532,16 @@ height: 200px;
 .more-project{
   padding-top: 0px;
 }
+
+.np-box .npb-left .h3,
+.np-box .npb-right .h3{
+font-size: 18px;
+}
+.np-box .npb-right .v-line{
+  min-height: 40px;
+  transition: all 1.5s;
+}
+.np-box .npb-right{
+  margin-top: 10px;
+}
 }
