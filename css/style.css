@@ -606,8 +606,9 @@ animate:animate-svg-stroke-1 2s linear forwards;
   transform: rotate(-270deg);
 } */
 .specialize-service .h3 {
-  font-size: calc(var(--th-fs-h3) * 1.3);
+  font-size: var(--th-fs-h3);
   color: var(--th-color-5);
+  font-weight: 600;
 }
 /* ------------- Specialize Section  End ------------- */
 
