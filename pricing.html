@@ -67,7 +67,6 @@
 
         <!-- Pricing Main Section Start -->
         <section class="pricing-main" id="pricing-main-page">
-
             <div class="container-xxl">
                 <div class="pm-border-box mb-4">
                     <div class="row justify-content-center">
@@ -99,7 +98,7 @@
                                                 <div class="h3"> <b>$5,000 USD</b></div>
                                             </div>
                                             <div class="pm-btn">
-                                                <a href="contact.html" class="th-btn">
+                                                <a class="th-btn">
                                                     <span class="tb-t">Start Your Branding Project</span>
                                                     <i class="far fa-arrow-right"></i></a>
                                             </div>
@@ -226,7 +225,7 @@
                                                 <div class="h3"> <b> $10,000 USD</b></div>
                                             </div>
                                             <div class="pm-btn">
-                                                <a href="contact.html" class="th-btn">
+                                                <a class="th-btn">
                                                     <span class="tb-t">Start your Web Project</span>
                                                     <i class="far fa-arrow-right"></i></a>
                                             </div>
@@ -324,7 +323,7 @@
                                                 <div class="h3"> <b>$10,000 USD</b></div>
                                             </div>
                                             <div class="pm-btn">
-                                                <a href="contact.html" class="th-btn">
+                                                <a class="th-btn">
                                                     <span class="tb-t">Start your Animated Video Project</span>
                                                     <i class="far fa-arrow-right"></i></a>
                                             </div>
@@ -683,6 +682,30 @@
             </div>
         </section>
         <!-- Pricing Main Section End -->
+        <div class="pricing-form-wrapper d-none">
+            <i class="fas fa-times"></i>
+            <div class="pricing-form">
+                <div class="pf-head">
+                    <div class="h3">Have a project in mind?</div>
+                    <p>Let's start a conversation! We're excited to connect and explore how we can bring your brand to life.</p>
+                </div>
+                <div class="pf-box">
+                    <form action="submit_form.php"  method="post">
+                        <div class="pf-input"><label for="">Full Name</label><input type="text" placeholder="Eg: John Doe" name="name" required></div>
+                        <div class="pf-input"><label for="">Email</label><input type="email" placeholder="Eg: johndoe@gmail.com" name="email" required></div>
+                        <div class="pf-input"><label for="">Company </label><input type="text" placeholder="Eg: Because" name="company" required></div>
+                        <div class="pf-input"><label for="">Anything we should know about you and your work?</label>
+                            <textarea name="message" placeholder="Type your message here" id="" rows="5" required></textarea></div>
+                            <div class="pf-input align-items-start">
+                                <button class="th-btn">
+                                    <span class="tb-t">Submit</span>
+                                    <i class="far fa-arrow-right ms-2"></i>
+                                </button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <!-- Write to us Section Start -->
         <section class="write-to-us" id="write-to-us-5">
@@ -765,7 +788,19 @@
 
     <!-- ========== main Js ========== -->
     <script src="js/main.js"></script>
+    
+<script>
+    
+</script>
     <script>
+        $(".pm-card .pm-btn").click(function(){
+            $(".pricing-form-wrapper").removeClass("d-none");
+            $("body").addClass("overflow-hidden");
+        })
+        $(".pricing-form-wrapper .fas").click(function(){
+            $(".pricing-form-wrapper").addClass("d-none");
+            $("body").removeClass("overflow-hidden");
+        })
         $(document).ready(function () {
             $(window).scroll(function () {
                 var pricingMainOffsetTop = $('#pricing-main-page').offset().top;

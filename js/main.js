@@ -21,65 +21,41 @@ $(window).on('load', function () {
     // Remove active class from .header-bottom
     $('.header-bottom').removeClass('active');
 })
+/* 
+$("#myform").submit(function (event) {
+    // Prevent the form from submitting
+    event.preventDefault();
 
-/* //  Dark and light mode 
-// Listen for the change event on the checkbox
-$('#checkbox').change(function () {
-    // Check if the checkbox is checked
-    if ($(this).is(':checked')) {
-        // If checked, add classes for dark mode and remove classes for light mode
-        $('body').removeClass('light').addClass('dark');
-        $('.mode-text').removeClass('light').addClass('dark').text('Dark');
-    } else {
-        // If not checked, add classes for light mode and remove classes for dark mode
-        $('body').removeClass('dark').addClass('light');
-        $('.mode-text').removeClass('dark').addClass('light').text('Light');
+    // Get form fields
+    var name = $('input[name="name"]').val().trim();
+    var email = $('input[name="email"]').val().trim();
+    var company = $('input[name="company"]').val().trim();
+    var message = $('textarea[name="message"]').val().trim();
+
+    // Check if any field is empty
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (name === '') {
+        alert('Please fill out your name');
+        return;
     }
-}); */
+    // Email validation regex pattern
+    if (!emailPattern.test(email)) {
+        alert('Please fill out your right email');
+        return;
+    }
+    if (company === '') {
+        alert('Please fill out your brand name');
+        return;
+    }
+    if (message === '') {
+        alert('Please fill out your message for us');
+        return;
+    }
 
-/* // Specialize Accordin 
-$(".sr-t+.th-p").slideUp()
-$(".sr-t").click(function () {
-    $(this).toggleClass("active");
-    $(this).next().slideToggle();
-})
-//  Theme Change 
-$(".th-mode").click(function () {
-    $(this).toggleClass("active");
-    $("body").toggleClass("dark");
-}) */
-// Nav Scroll On Up Toggler
-$(document).ready(function () {
-    var lastScrollTop = 0;
-
-    $(window).scroll(function (event) {
-       /*  var st = $(this).scrollTop();
-        if (st > 0) {
-            $(".ht-left img").addClass("d-none");
-        } else {
-            $(".ht-left img").removeClass("d-none");
-        } */
-        /* if (st > lastScrollTop) {
-            // Downscroll code
-            $('.header-bottom').addClass('active');
-        } else {
-            // Upscroll code
-            $('.header-bottom').removeClass('active');
-        }
-        lastScrollTop = st; */
-    });
-
-    /* // Handle stop scrolling
-    var timeout;
-    $(window).scroll(function () {
-        clearTimeout(timeout);
-        timeout = setTimeout(function () {
-            $('.header-bottom').removeClass('active');
-        }, 2000);
-    }); */
+    // If all fields are filled, submit the form
+    this.submit();
 });
-
-
+ */
 
 //   Animate to top  
 $('.foot-up .fal').click(function () {

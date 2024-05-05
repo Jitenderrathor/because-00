@@ -314,6 +314,34 @@
   .csh-img #youtube {
     height: 450px;
 }
+.oa-box .row{
+  position: relative;
+  left: 0px;
+}
+.pricing-form{
+  padding: 30px;
+}
+.pricing-form-wrapper{
+  overflow-y: scroll;
+}
+.pricing-form .pf-box .pf-input{
+  margin-top: 16px;
+}
+.pricing-form-wrapper .fas{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.pricing-form .pf-box .pf-input .th-btn:hover:before {
+  top: -110%;
+}
+.thank-you .far{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}.thank-you .h3{
+  font-size: var(--th-fs-h2);
+}
 }
 
 /* Small devices (576px and down) */

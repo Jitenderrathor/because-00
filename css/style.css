@@ -286,7 +286,7 @@ a {
 .th-mode.active .ball {
   transform: translateX(24px);
 }
-/* Header Scetion Start ------------------------------ */
+/* Header Section Start ------------------------------ */
 /* #header {
   background-color: white;
 
@@ -512,9 +512,9 @@ a {
 #heart:hover path{
 animate:animate-svg-stroke-1 2s linear forwards;
 } */
-/* ------------- Header Scetion  End ------------- */
+/* ------------- Header Section  End ------------- */
 
-/* Banner Scetion Start ------------------------------ */
+/* Banner Section Start ------------------------------ */
 .banner video {
   border: none;
 }
@@ -523,9 +523,9 @@ animate:animate-svg-stroke-1 2s linear forwards;
   color: var(--th-color-1);
 }
 
-/* ------------- Banner Scetion  End ------------- */
+/* ------------- Banner Section  End ------------- */
 
-/* Specialize Scetion Start ------------------------------ */
+/* Specialize Section Start ------------------------------ */
 @keyframes moveMouse {
   0% {
     transform: translateY(0);
@@ -609,9 +609,9 @@ animate:animate-svg-stroke-1 2s linear forwards;
   font-size: calc(var(--th-fs-h3) * 1.3);
   color: var(--th-color-5);
 }
-/* ------------- Specialize Scetion  End ------------- */
+/* ------------- Specialize Section  End ------------- */
 
-/* Specialize Scetion Start ------------------------------ */
+/* Specialize Section Start ------------------------------ */
 .our-work {
   padding: 80px 0;
 }
@@ -636,9 +636,9 @@ animate:animate-svg-stroke-1 2s linear forwards;
   text-transform: capitalize;
 }
 
-/* ------------- Specialize Scetion  End ------------- */
+/* ------------- Specialize Section  End ------------- */
 
-/* Our Project Scetion Start ------------------------------ */
+/* Our Project Section Start ------------------------------ */
 .video-box {
   max-width: 320px;
   width: 100%;
@@ -747,7 +747,7 @@ animate:animate-svg-stroke-1 2s linear forwards;
 .op-img:nth-child(3){
     right: calc(var(--spating)*2);
 } */
-/* our-work Scetion Start ------------------------------ */
+/* our-work Section Start ------------------------------ */
 
 #project-page .ow-wrapper {
   width: 100%;
@@ -784,10 +784,10 @@ animate:animate-svg-stroke-1 2s linear forwards;
   position: absolute;
 }
 
-/* ------------- our-work Scetion End ------------- */
-/* ------------- Our Project Scetion End ------------- */
+/* ------------- our-work Section End ------------- */
+/* ------------- Our Project Section End ------------- */
 
-/* Write to us Scetion Start ------------------------------ */
+/* Write to us Section Start ------------------------------ */
 .write-to-us {
   padding: 100px 0;
 }
@@ -809,9 +809,9 @@ animate:animate-svg-stroke-1 2s linear forwards;
 .write-to-us .th-btn {
   background-color: transparent;
 }
-/* ------------- Write to us Scetion End ------------- */
+/* ------------- Write to us Section End ------------- */
 
-/* Footer Scetion Start ------------------------------ */
+/* Footer Section Start ------------------------------ */
 footer .foot-menu {
   overflow: hidden;
 }
@@ -876,7 +876,7 @@ footer .f-text:hover .fas {
   color: var(--th-color-5);
 }
 
-/* ------------- Footer Scetion End ------------- */
+/* ------------- Footer Section End ------------- */
 
 /* ---------------------================= Service Page ================-------------------  */
 /* service hero start */
@@ -944,15 +944,15 @@ footer .f-text:hover .fas {
 
 /* ---------------------================= Project Page ================-------------------  */
 
-/* Project Hero Scetion Start ------------------------------ */
+/* Project Hero Section Start ------------------------------ */
 .project-hero {
   padding: 100px 0 150px 0;
 }
-.ph-tab-btn{
-  background-color: #F7FAFF ;
+.ph-tab-btn {
+  background-color: #f7faff;
   border-radius: 20px;
 }
-.phtb{
+.phtb {
   padding: 15px 0px;
 }
 .phtb a {
@@ -964,7 +964,7 @@ footer .f-text:hover .fas {
   margin-bottom: 10px;
   transition: all 0.5s;
 }
-.phtb.active{
+.phtb.active {
   border-bottom: 5px solid var(--th-color-1);
 }
 .phtb a:hover {
@@ -984,7 +984,7 @@ footer .f-text:hover .fas {
 .tab-project.active {
   display: block;
 }
-/* ------------- Project Hero Scetion End ------------- */
+/* ------------- Project Hero Section End ------------- */
 
 /* ---------------------================= Contact Page ================-------------------  */
 .ch-box {
@@ -1074,7 +1074,7 @@ footer .f-text:hover .fas {
   font-size: var(--th-fs-h5) !important;
 } */
 
-/* Our Approach Scetion Start ------------------------------ */
+/* Our Approach Section Start ------------------------------ */
 .our-approach {
   padding: 100px 0 0 0;
 }
@@ -1082,14 +1082,16 @@ footer .f-text:hover .fas {
 .oa-box {
   padding: 50px 0;
 }
+.oa-box .row {
+  position: relative;
+  left: 15px;
+}
 
 .oa-card {
-  /* min-height: 300px; */
   height: 100%;
   padding: 50px;
   border-radius: 50px;
   position: relative;
-  /* background-color: rgba(255, 255, 255); */
   background: linear-gradient(
     89.79deg,
     #ffffff 73.36%,
@@ -1113,18 +1115,18 @@ footer .f-text:hover .fas {
 .oa-card .th-p {
   font-size: var(--th-fs-h5);
 }
-/* ------------- Our Approach Scetion End ------------- */
+/* ------------- Our Approach Section End ------------- */
 
 /* ---------------------================= Pricing Page ================-------------------  */
 
-/* Pricing Body Scetion Start ------------------------------ */
+/* Pricing Body Section Start ------------------------------ */
 #pricing-page {
   background: var(--th-color-5);
   transition: all 0.5s;
 }
-/* ------------- Pricing Body Scetion End ------------- */
+/* ------------- Pricing Body Section End ------------- */
 
-/* Pricing Hero Scetion Start ------------------------------ */
+/* Pricing Hero Section Start ------------------------------ */
 .pricing-hero {
   padding: 0px;
   padding-top: 80px;
@@ -1135,9 +1137,9 @@ footer .f-text:hover .fas {
 /* .pricing-hero .ph-text .th-p {
   font-size: var(--th-fs-h4);
 } */
-/* ------------- Pricing Hero Scetion End ------------- */
+/* ------------- Pricing Hero Section End ------------- */
 
-/* Pricing Main Scetion Start ------------------------------ */
+/* Pricing Main Section Start ------------------------------ */
 .pricing-main {
   padding: 180px 0px 0px 0px;
 }
@@ -1154,7 +1156,7 @@ footer .f-text:hover .fas {
   border-radius: 50px;
 }
 .pm-border-box {
-background-color: var(--th-color-5);
+  background-color: var(--th-color-5);
   border-radius: 20px;
 }
 .pm-tab-box {
@@ -1168,10 +1170,10 @@ background-color: var(--th-color-5);
   flex: 1;
   padding: 20px 0px;
   cursor: pointer;
-  opacity: .2;
-  transition: all .5s;
+  opacity: 0.2;
+  transition: all 0.5s;
 }
-.pm-tab-box .pmtb-btn:hover{
+.pm-tab-box .pmtb-btn:hover {
   opacity: 1;
 }
 .pm-tab-box .pmtb-btn.active {
@@ -1208,6 +1210,9 @@ background-color: var(--th-color-5);
   background-color: var(--th-color-4);
   height: 1px;
   margin: 30px 0px;
+}
+.pm-card .pm-btn{
+  cursor: pointer;
 }
 .pm-card .h5 {
   font-family: var(--font-family);
@@ -1276,11 +1281,11 @@ background-color: var(--th-color-5);
 .requirements .rq-btn .th-btn::before {
   background-color: var(--th-color-5);
 }
-/* ------------- Pricing Main Scetion End ------------- */
+/* ------------- Pricing Main Section End ------------- */
 
 /* ---------------------================= Case Study Page ================-------------------  */
 
-/* Pricing Main Scetion Start ------------------------------ */
+/* Pricing Main Section Start ------------------------------ */
 #case-study-page .h2 {
   font-size: calc(var(--th-fs-h2) * 0.75);
   font-family: var(--font-family);
@@ -1362,22 +1367,21 @@ background-color: var(--th-color-5);
 .get-in-touch .far {
   transform: rotate(0deg);
 }
-/* ------------- Pricing Main Scetion End ------------- */
+/* ------------- Pricing Main Section End ------------- */
 
-
-/* ------------- Next Project Scetion Start ------------- */
-.next-project{
+/* ------------- Next Project Section Start ------------- */
+.next-project {
   padding: 50px 0px;
 }
-.np-box{
+.np-box {
   background-color: var(--th-color-1);
   border-radius: 50px;
   padding: 20px;
   position: relative;
   overflow: hidden;
 }
-.np-box::after{
-  content: '';
+.np-box::after {
+  content: "";
   background-color: var(--th-color-6);
   width: 100%;
   height: 100%;
@@ -1387,56 +1391,194 @@ background-color: var(--th-color-5);
   top: 0;
   left: 0;
   z-index: 1;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.np-box:hover:after{
+.np-box:hover:after {
   transform: translateY(0%);
 }
-.np-box .npb-left .h3{
- font-weight: 400 ;
- color: var(--th-color-5);
- position: relative;
- z-index: 10;
- margin: 0;
+.np-box .npb-left .h3 {
+  font-weight: 400;
+  color: var(--th-color-5);
+  position: relative;
+  z-index: 10;
+  margin: 0;
 
- transition: all 1.5s;
+  transition: all 1.5s;
 }
-.np-box .npb-right .h3{
- font-weight: 500 ;
- color: var(--th-color-5);
- position: relative;
- z-index: 10;
- margin: 0;
- transition: all 1.5s;
+.np-box .npb-right .h3 {
+  font-weight: 500;
+  color: var(--th-color-5);
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  transition: all 1.5s;
 }
-.np-box .npb-right .h3 .far{
-transform: rotate(-45deg);
+.np-box .npb-right .h3 .far {
+  transform: rotate(-45deg);
 }
-.np-box .npb-right .v-line{
+.np-box .npb-right .v-line {
   width: 1.5px;
   border-radius: 10px;
   height: 100%;
   min-height: 70px;
-  background-color: var(--th-color-5); 
+  background-color: var(--th-color-5);
   position: relative;
   z-index: 10;
   transition: all 1.5s;
 }
-.np-box .npb-right .h5{
+.np-box .npb-right .h5 {
   font-family: var(--font-family);
   font-size: 15px;
   font-weight: 500;
-color: var(--th-color-5);  
-position: relative;
-z-index: 10;
-margin: 0;
-transition: all 1.5s;
+  color: var(--th-color-5);
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  transition: all 1.5s;
 }
-.np-box:hover .v-line{
+.np-box:hover .v-line {
   background-color: var(--th-color-2);
 }
 .np-box:hover .h3,
-.np-box:hover .h5{
+.np-box:hover .h5 {
   color: var(--th-color-2);
 }
-/* ------------- Next Project Scetion End ------------- */
+/* ------------- Next Project Section End ------------- */
+
+.pricing-form-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  /* overflow-y: scroll; */
+  background-color:rgba(49, 86, 167, 0.301) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-form-wrapper .fas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: var(--th-color-5);
+  color: var(--th-color-2);
+  text-align: center;
+  font-size: var(--th-fs-h5);
+  cursor: pointer;
+  transition: all .5s;
+}
+.pricing-form-wrapper .fas:hover{
+  background-color: var(--th-color-1);
+  color: var(--th-color-5);
+}
+.pricing-form {
+  background-color: var(--th-color-1);
+  max-width: 670px;
+  padding: 30px;
+  border-radius: 50px;
+}
+.pricing-form .h3 {
+  font-weight: 500;
+  text-align: center;
+  color: var(--th-color-5);
+}
+.pricing-form p {
+  font-family: var(--font-family);
+  max-width: 470px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  color: var(--th-color-5);
+}
+.pricing-form .pf-box .pf-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.pricing-form .pf-box .pf-input label{
+  font-family: var(--font-family);
+font-size: calc(var(--th-fs-h5)*.7);
+font-weight: 500;
+color: var(--th-color-5);
+line-height: 100%;
+}
+.pricing-form .pf-box .pf-input input,
+.pricing-form .pf-box .pf-input textarea{
+ width: calc(100%-30px) !important;
+ background-color: transparent;
+ border: 1px solid var(--th-color-5);
+ border-radius: 50px;
+ padding: 6px 15px;
+}
+.pricing-form .pf-box .pf-input textarea{
+  border-radius: 24px;
+}
+.pricing-form .pf-box .pf-input .th-btn{
+  font-size: calc(var(--th-fs-h5)*.7);
+  background-color: transparent;
+  border: 1px solid var(--th-color-5);
+  color: var(--th-color-5);
+}
+.pricing-form .pf-box .pf-input .th-btn:hover:before {
+  top: -68%;
+}
+.pricing-form .pf-box .pf-input .th-btn .far{
+  font-size: calc(var(--th-fs-h5)*.7) !important;
+}
+.pricing-form .pf-box .pf-input .th-btn:hover{
+  border: 1px solid var(--th-color-1);
+  color: var(--th-color-2);
+  
+}
+/* .pricing-form .pf-box .pf-input:last-child input{
+height: 200px;
+} */
+.pricing-form .pf-box .pf-input input::placeholder,
+.pricing-form .pf-box .pf-input textarea::placeholder{
+  font-family: var(--font-family);
+  font-size: calc(var(--th-fs-h5)*.7);
+  font-weight: 500;
+  color: var(--th-color-5);
+}
+
+
+/* ------------- thankyou Section Start ------------- */
+.thank-you{
+  padding: 100px 0px;
+  background-color: var(--th-color-1);
+  margin-bottom: 50px;
+  text-align: center;
+}
+.thank-you .h3{
+  font-weight: 500;
+  font-size: calc(var(--th-fs-h2)*.7);
+  color: var(--th-color-5);
+  text-align: center;
+  margin: auto;
+}
+.thank-you .far{
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: var(--th-fs-h3);
+  color: var(--th-color-5);
+  border: 2px solid var(--th-color-5);
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+.thank-you .th-p{
+  color: var(--th-color-5);
+  margin-bottom: 10px;
+}
+.thank-you a{
+  text-decoration: 1px white underline;
+}
+/* ------------- thankyou Section End ------------- */
