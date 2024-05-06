@@ -515,9 +515,10 @@ animate:animate-svg-stroke-1 2s linear forwards;
 /* ------------- Header Section  End ------------- */
 
 /* Banner Section Start ------------------------------ */
-video {
-  border: none !important;
-  outline: none !important;
+.banner video {
+  border: none;
+  /* border:1px solid black !important; */
+  outline: none;
 }
 
 .banner .h1 {
@@ -1179,6 +1180,7 @@ footer .f-text:hover .fas {
 }
 .pm-tab-box .pmtb-btn .h5 {
   font-weight: 600;
+  text-transform: capitaliz;
 }
 .pm-tab-box .pmtb-btn-line {
   position: absolute;
