@@ -515,8 +515,9 @@ animate:animate-svg-stroke-1 2s linear forwards;
 /* ------------- Header Section  End ------------- */
 
 /* Banner Section Start ------------------------------ */
-.banner video {
-  border: none;
+video {
+  border: none !important;
+  outline: none !important;
 }
 
 .banner .h1 {
