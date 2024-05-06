@@ -105,6 +105,7 @@ section {
   width: 100%;
   padding: 0px 40px;
 }
+
 .marquee {
   white-space: nowrap;
   overflow: hidden;
@@ -897,45 +898,54 @@ footer .f-text:hover .fas {
   max-width: 1200px;
   width: 100%;
 }
-
-.ss-box {
+#cardstack {
+  max-width: 1690px !important;
+  width: 100%;
+  padding: 0px 40px;
+}
+.specialize-service{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.ss-box-cus {
   background-color: var(--th-color-1);
   padding: 50px 30px;
   border-radius: 50px;
-  margin-bottom: 20px;
+  position: sticky;
 }
-/* .ss-box-1{
-  top: 100px;
+#ss-box-cus-1{
+  top: 50px;
 }
-.ss-box-2{
-  top: 100px;
+#ss-box-cus-2{
+  top: 70px;
 }
-.ss-box-3{
-  top: 100px;
-} */
-.ss-box .h3 .h-light {
+#ss-box-cus-3{
+  top: 90px;
+}
+.ss-box-cus .h3 .h-light {
   color: var(--th-color-6);
 }
-.ss-box .h3 .h-black {
+.ss-box-cus .h3 .h-black {
   color: #fff;
   margin-left: 70px;
 }
-.ss-box .th-p {
+.ss-box-cus .th-p {
   color: var(--th-color-5);
 }
-.ss-box .th-btn {
+.ss-box-cus .th-btn {
   color: var(--th-color-5);
   border: 1px solid var(--th-color-5);
   margin-top: 100px;
 }
-.ss-box .th-btn:hover {
+.ss-box-cus .th-btn:hover {
   color: var(--th-color-2);
   border: 1px solid var(--th-color-6);
 }
-.ss-box .th-btn .far {
+.ss-box-cus .th-btn .far {
   transform: rotate(-45deg);
 }
-.ss-box .h5 {
+.ss-box-cus .h5 {
   margin-bottom: 0;
   color: var(--th-color-5);
 }

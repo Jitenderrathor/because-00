@@ -217,10 +217,10 @@
   .specialize {
     padding: 50px 0;
   }
-  .ss-box{
+  .ss-box-cus{
     padding: 30px 20px;
   }
-  .ss-box .th-btn{
+  .ss-box-cus .th-btn{
    margin-top: 50px;
   }
   .h1 .h1-light {
@@ -358,6 +358,9 @@
     --th-fs-h5: calc(22px * 0.6);
   }
   .container-xxl{
+    padding: 0px 20px;
+  }
+  #cardstack{
     padding: 0px 20px;
   }
   /* .th-btn::before{
@@ -545,16 +548,16 @@ height: 200px;
     border-bottom: 5px solid var(--th-color-1);
     opacity: 1;
   }
-  .ss-box{
+  .ss-box-cus{
     padding:20px;
   }
-  .ss-box .th-btn{
+  .ss-box-cus .th-btn{
    margin-top: 20px;
   }
-  .ss-box .sr-t {
+  .ss-box-cus .sr-t {
     margin-left: 20px !important;
   }
-  .ss-box .sr-t .h5 {
+  .ss-box-cus .sr-t .h5 {
     padding: 4px !important;
   }
   .phtb a {

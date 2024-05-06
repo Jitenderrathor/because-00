@@ -1,214 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Docusent</title>
+        <!-- bootstrap Css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+        <!-- style Css -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- responsive Css -->
+        <link rel="stylesheet" href="css/responsive.css" />
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background: hsl(265.3, 10%, 75%);
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-                sans-serif;
-        }
-
-        .card {
+        /* .ss-box-cus{
             position: sticky;
-            top: 0;
         }
-
-        .card__inner {
-            will-change: transform;
-            background: white;
-            border-radius: 14px;
-            display: flex;
-            overflow: hidden;
-            box-shadow: 0 25px 50px -12px hsla(265.3, 20%, 10%, 35%);
-            transform-origin: center top;
+        #ss-box-cus-1{
+            top: 50px;
         }
-
-        .cards {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-rows: repeat(var(--cards-count), var(--card-height));
-            gap: 40px 0;
+        #ss-box-cus-2{
+            top: 70px;
         }
-
-        .card__image-container {
-            display: flex;
-            width: 40%;
-            flex-shrink: 0;
-        }
-
-        .card__image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            aspect-ratio: 1;
-        }
-
-        .card__content {
-            padding: 40px 30px;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .card__title {
-            padding: 0;
-            margin: 0;
-            font-size: 60px;
-            font-weight: 600;
-            color: #16263a;
-        }
-
-        .card__description {
-            line-height: 1.4;
-            font-size: 24px;
-            color: #16263a;
-        }
-
-        .space {
-            height: 90vh;
-        }
-
-        .space--small {
-            height: 40vh;
-        }
-
-        @media (max-width: 600px) {
-            .card__inner {
-                flex-direction: column;
-            }
-
-            .card__image-container {
-                width: 100%;
-            }
-
-            .card__image {
-                aspect-ratio: 16 / 9;
-            }
-
-            .card__title {
-                font-size: 32px;
-            }
-
-            .card__description {
-                font-size: 16px;
-            }
-
-            .card__content {
-                padding: 30px 20px;
-            }
-        }
+        #ss-box-cus-3{
+            top: 90px;
+        } */
     </style>
 </head>
-
 <body>
-    <div class="space space--small"></div>
-    <div class="cards">
-        <div class="card" data-index="0">
-            <div class="card__inner">
-                <div class="card__image-container">
-                    <img class="card__image"
-                        src="https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
-                        alt="" />
+    <div class="specialize-service">
+        <div class="ss-box-cus" id="ss-box-cus-1">
+            <div class="row justify-content-between">
+                <div class="col-md-5 col-lg-7 mt-3 my-md-3">
+                    <div class="specialize-left">
+                        <div class="h3">
+                            BRANDING & <br>
+                            CONSUMER - CENTRICITY
+                        </div>
+
+                    </div>
                 </div>
-                <div class="card__content">
-                    <h1 class="card__title">Card Title</h1>
-                    <p class="card__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                        error nam eaque. Eum fuga laborum quos expedita iste saepe
-                        similique, unde possimus quia at magnam sed cupiditate?
-                        Reprehenderit, harum!
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="card" data-index="0">
-            <div class="card__inner">
-                <div class="card__image-container">
-                    <img class="card__image"
-                        src="https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
-                        alt="" />
-                </div>
-                <div class="card__content">
-                    <h1 class="card__title">Card Title</h1>
-                    <p class="card__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                        error nam eaque. Eum fuga laborum quos expedita iste saepe
-                        similique, unde possimus quia at magnam sed cupiditate?
-                        Reprehenderit, harum!
-                    </p>
+                <div class="col-md-7 col-lg-5 mt-3 my-md-3">
+                    <div class="specialize-right">
+                        <p class="th-p">
+                            At Because, we help you define what your brand stands for. Together,
+                            we’ll
+                            explore your brand’s purpose and connect with your audience using clear
+                            and
+                            effective strategies. Our branding services create a recognizable and
+                            consistent
+                            identity through custom-designed logos, a unique style for your brand,
+                            and clear
+                            guidelines for all your communications.
+                        </p>
+                        <div class="sr-btn">
+                            <a href="pricing.html#branding-pricing" class="th-btn">
+                                <span class="tb-t">Know More</span>
+                                <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card" data-index="0">
-            <div class="card__inner">
-                <div class="card__image-container">
-                    <img class="card__image"
-                        src="https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
-                        alt="" />
+        <div class="ss-box-cus" id="ss-box-cus-2">
+            <div class="row justify-content-between">
+                <div class="col-md-5 col-lg-7 mt-3 my-md-3">
+                    <div class="specialize-left">
+                        <div class="h3">
+                            WEB DESIGN & <br>
+                            DEVELOPMENT
+                        </div>
+
+                    </div>
                 </div>
-                <div class="card__content">
-                    <h1 class="card__title">Card Title</h1>
-                    <p class="card__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta
-                        error nam eaque. Eum fuga laborum quos expedita iste saepe
-                        similique, unde possimus quia at magnam sed cupiditate?
-                        Reprehenderit, harum!
-                    </p>
+                <div class="col-md-7 col-lg-5 mt-3 my-md-3">
+                    <div class="specialize-right">
+                        <p class="th-p">
+                            We build websites that capture the essence of your brand and engage your
+                            audience effectively. Our team combines creative design with technical
+                            know-how
+                            to develop user-friendly websites that look great and work smoothly. We
+                            take
+                            care of everything from the initial design to the final launch, ensuring
+                            your
+                            website stands out and performs well.
+                        </p>
+                        <div class="sr-btn">
+                            <a href="pricing.html#web-pricing" class="th-btn">
+                                <span class="tb-t">Know More</span>
+                                <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ss-box-cus" id="ss-box-cus-3">
+            <div class="row justify-content-between">
+                <div class="col-md-5 col-lg-7 mt-3 my-md-3">
+                    <div class="specialize-left">
+                        <div class="h3">
+                            ANIMATED <br>
+                            VIDEOS
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-5 mt-3 my-md-3">
+                    <div class="specialize-right">
+                        <p class="th-p">
+                            We bring your brand to life through captivating animated videos. Whether
+                            you're
+                            looking to explain complex concepts, showcase products, or engagingly
+                            tell your
+                            brand story, our team of talented animators and storytellers is here to
+                            help. We
+                            combine creativity with strategic messaging to create videos that
+                            resonate with
+                            your audience and drive results.
+                        </p>
+                        <div class="sr-btn">
+                            <a href="pricing.html#animated-video-pricing" class="th-btn">
+                                <span class="tb-t">Know More</span>
+                                <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="space"></div>
-
-    <script src="https://unpkg.com/aatjs@0.0.3/dist/aat.min.js"></script>
-    <script>
-        // This was built using aat.js: https://github.com/TahaSh/aat
-
-        const { ScrollObserver, valueAtPercentage } = aat
-
-        const cardsContainer = document.querySelector('.cards')
-        const cards = document.querySelectorAll('.card')
-        cardsContainer.style.setProperty('--cards-count', cards.length)
-        cardsContainer.style.setProperty(
-            '--card-height',
-            `${cards[0].clientHeight}px`
-        )
-        Array.from(cards).forEach((card, index) => {
-            const offsetTop = 20 + index * 20
-            card.style.paddingTop = `${offsetTop}px`
-            if (index === cards.length - 1) {
-                return
-            }
-            const toScale = 1 - (cards.length - 1 - index) * 0.1
-            const nextCard = cards[index + 1]
-            const cardInner = card.querySelector('.card__inner')
-            ScrollObserver.Element(nextCard, {
-                offsetTop,
-                offsetBottom: window.innerHeight - card.clientHeight
-            }).onScroll(({ percentageY }) => {
-                cardInner.style.scale = valueAtPercentage({
-                    from: 1,
-                    to: toScale,
-                    percentage: percentageY
-                })
-                cardInner.style.filter = `brightness(${valueAtPercentage({
-                    from: 1,
-                    to: 0.6,
-                    percentage: percentageY
-                })})`
-            })
-        })
-    </script>
 </body>
-
 </html>
