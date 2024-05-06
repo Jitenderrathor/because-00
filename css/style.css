@@ -1386,7 +1386,7 @@ footer .f-text:hover .fas {
 }
 .np-box {
   background-color: var(--th-color-1);
-  border-radius: 50px;
+  border-radius: 56.5px;
   padding: 20px;
   position: relative;
   overflow: hidden;
@@ -1396,7 +1396,7 @@ footer .f-text:hover .fas {
   background-color: var(--th-color-6);
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 56.5px;
   position: absolute;
   transform: translateY(100%);
   top: 0;
@@ -1406,6 +1406,11 @@ footer .f-text:hover .fas {
 }
 .np-box:hover:after {
   transform: translateY(0%);
+}
+.np-box:hover{
+  background-color: var(--th-color-5);
+  transition: all 2s;
+
 }
 .np-box .npb-left .h3 {
   font-weight: 400;
