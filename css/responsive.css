@@ -342,6 +342,9 @@
 }.thank-you .h3{
   font-size: var(--th-fs-h2);
 }
+.pm-service .pms-item{
+  padding: 20px;
+}
 }
 
 /* Small devices (576px and down) */
@@ -397,6 +400,9 @@ height: 200px;
   }
   .pm-service {
     margin-top: 0px;
+  }
+  .pm-service .pms-item{
+    padding: 10px;
   }
   .pm-card{
     padding: 40px 20px;
@@ -481,6 +487,13 @@ height: 200px;
   }
   .pricing-main {
     padding: 100px 0 50px 0px;
+  }
+  .pricing-main .container-xxl{
+    padding: 0 !important;
+  }
+  .pm-border-box,
+  .pm-card{
+    border-radius: 0;
   }
   #contact-page .ch-details .h1 {
     font-size: calc(180px * 0.29);

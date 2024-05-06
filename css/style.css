@@ -900,20 +900,16 @@ footer .f-text:hover .fas {
   background-color: var(--th-color-1);
   padding: 50px 30px;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
-#service-page .ss-stack-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 30px;
+/* .ss-box-1{
+  top: 100px;
 }
-/* 
-#service-page .ss-wrap-item{
-   position: sticky;
-   top: 100px;
+.ss-box-2{
+  top: 100px;
 }
-#service-page .ss-wrap-item:nth-child(2){
-   top: 200px;
+.ss-box-3{
+  top: 100px;
 } */
 .ss-box .h3 .h-light {
   color: var(--th-color-6);
