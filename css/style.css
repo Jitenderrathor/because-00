@@ -1353,7 +1353,7 @@ footer .f-text:hover .fas {
   /* background-color: ; */
   background: url(../image/case-study/3/case-hero-bg.png);
   background-position: center center;
-  /* background-size: cover; */
+  background-size: cover;
 }
 .challenge.c-suite-impact {
   background-color: #f8fbf4;
