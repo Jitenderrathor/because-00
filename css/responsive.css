@@ -185,10 +185,10 @@
   .nav-container ul li a {
     font-size: 40px;
   }
-  .header-top .ht-left {
+  .ht-left {
     max-width: 150px;
   }
-  .header-top .ht-right #heart {
+  .ht-right #heart {
     width: 50px;
     height: 50px;
   }
@@ -378,7 +378,8 @@ height: 200px;
     font-size: var(--th-fs-h5);
   }
   #about-page .fixed-heart {
-    top: 400px;
+    top: 600px;
+    width: 150px;
   }
   #pricing-page .fixed-heart {
     top: 500px;
@@ -452,6 +453,7 @@ height: 200px;
   }
   .header-bottom.active {
     transform: translateX(0%);
+    padding-top: 0px;
   }
   .header-bottom .hb-box {
     height: 100vh;
