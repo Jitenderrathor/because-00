@@ -422,6 +422,7 @@ height: 200px;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: var(--th-color-5);
   }
 
   .banner {
@@ -454,6 +455,7 @@ height: 200px;
   .header-bottom.active {
     transform: translateX(0%);
     padding-top: 0px;
+    border-radius: 0px;
   }
   .header-bottom .hb-box {
     height: 100vh;
@@ -588,5 +590,19 @@ font-size: 18px;
 }
 .np-box .npb-right{
   margin-top: 10px;
+}
+.pricing-form-wrapper{
+  display: block;
+  overflow-y: scroll;
+}
+.pricing-form {
+margin-top: 45px;
+}
+.pricing-form .pf-box .pf-input label,
+.pricing-form .pf-box .pf-input input::placeholder,
+.pricing-form .pf-box .pf-input textarea::placeholder,
+.pricing-form .pf-box .pf-input .th-btn,
+.pricing-form .pf-box .pf-input .th-btn .far{
+  font-size:var(--th-fs-h5) !important;
 }
 }

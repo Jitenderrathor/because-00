@@ -1497,6 +1497,7 @@ footer .f-text:hover .fas {
   background-color: var(--th-color-1);
   max-width: 670px;
   padding: 30px;
+  margin: auto;
   border-radius: 50px;
 }
 .pricing-form .h3 {
