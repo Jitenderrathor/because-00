@@ -1360,13 +1360,20 @@ footer .f-text:hover .fas {
   background-color: #f8fbf4;
 }
 .challenge.tiles-center .h4,
+.challenge.tiles-center .h5 a,
 .challenge.tiles-center .th-p {
   color: var(--th-color-5);
   font-family: var(--font-family);
 }
+.challenge.tiles-center .h5 a{
+  text-decoration: underline var(--th-color-5);
+}
 .challenge .h4 {
   font-weight: 700;
   font-family: var(--font-family) !important;
+}
+.link-to-website{
+  text-decoration: underline;
 }
 .csh-img #youtube {
   width: 100%;
@@ -1416,20 +1423,34 @@ footer .f-text:hover .fas {
   font-weight: 400;
   color: var(--th-color-5);
   position: relative;
-  z-index: 10;
+  z-index: 4;
   margin: 0;
 
   transition: all 1.5s;
 }
+
 .np-box .npb-right .h3 {
   font-weight: 500;
   color: var(--th-color-5);
   position: relative;
-  z-index: 10;
+  z-index: 4;
   margin: 0;
   transition: all 1.5s;
 }
 .np-box .npb-right .h3 .far {
+  transform: rotate(-45deg);
+}
+
+.np-box .d-block.d-sm-none .h3 {
+  font-weight: 500;
+  color: var(--th-color-5);
+  font-size: calc(var(--th-fs-h1)*.8);
+  position: relative;
+  z-index: 4;
+  margin: 0;
+  transition: all 1.5s;
+}
+.np-box .d-block.d-sm-none .h3 .far {
   transform: rotate(-45deg);
 }
 .np-box .npb-right .v-line {
@@ -1439,7 +1460,7 @@ footer .f-text:hover .fas {
   min-height: 70px;
   background-color: var(--th-color-5);
   position: relative;
-  z-index: 10;
+  z-index: 4;
   transition: all 1.5s;
 }
 .np-box .npb-right .h5 {
@@ -1448,13 +1469,14 @@ footer .f-text:hover .fas {
   font-weight: 500;
   color: var(--th-color-5);
   position: relative;
-  z-index: 10;
+  z-index: 4;
   margin: 0;
   transition: all 1.5s;
 }
 .np-box:hover .v-line {
   background-color: var(--th-color-2);
 }
+.np-box:hover .d-block.d-sm-none .h3,
 .np-box:hover .h3,
 .np-box:hover .h5 {
   color: var(--th-color-2);
