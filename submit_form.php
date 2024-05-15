@@ -12,7 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     // Set the recipient email address
-    $to = "jitenderjkr19@gmail.com";
+    $to = "hello@because.systems";
+    // $to = "jitenderjkr19@gmail.com";
     
     // Set the email subject
     $subject = "New Form Submission";
@@ -35,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Set the email headers
     $headers = "From: $name <$email>\r\n";
-    $headers .= "Cc: email1@example.com, email2@example.com\r\n";
+    $headers .= "Cc: deepti@because.systems, aditya@teambecause.com\r\n";
     
     // Send the email
     if (mail($to, $subject, $email_content, $headers)) {
