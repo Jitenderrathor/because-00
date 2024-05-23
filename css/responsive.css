@@ -73,9 +73,9 @@
     top: 400px;
   }
 
-  .header-bottom {
+  /* .header-bottom {
     max-width: 600px;
-  }
+  } */
   .navbar {
     padding: 0;
   }
@@ -200,7 +200,7 @@
     padding: 0 10px;
   }
   .header-bottom {
-    max-width: 500px;
+    max-width: 430px;
   }
   .hb-container .hb-box {
     padding: 10px 5px;
